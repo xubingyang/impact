@@ -18,7 +18,7 @@
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="/assets/styles.css">
 
   <script type="text/javascript">
     const queryParams = new URLSearchParams(window.location.search)
@@ -29,7 +29,7 @@
       localStorage.setItem('_ir_ad_name', iradname)
     }
   </script>
-  <title>Impact Demo Order Page</title>
+  <title>Impact Demo Order Page | Impact デモ注文ページ</title>
 </head>
 
 <body>
@@ -43,45 +43,45 @@
       <div class="form-holder">
         <div class="form-content">
           <div class="form-items">
-            <h3>Generating random order</h3>
-            <p>Data is only for demo purpose</p>
+            <h3>ランダムなオーダーを生成する</h3>
+            <p>データは、デモのみを目的としています。</p>
             <form>
 
               <div class="col-md-12">
-                <label class="text-white mb-0" for="orderId">Order ID</label>
+                <label class="text-white mb-0" for="orderId">Order ID(注文ID)</label>
                 <input class="form-control" type="text" name="orderId" id="orderId" placeholder="orderId-0001">
               </div>
 
               <div class="col-md-12">
-                <label class="text-white mb-0" for="subTotal">Total Amount</label>
+                <label class="text-white mb-0" for="subTotal">Total Amount(合計金額)</label>
                 <input class="form-control" type="text" name="subTotal" id="subTotal" placeholder="5000">
               </div>
 
               <div class="col-md-12">
-                <label class="text-white mb-0" for="category">Category</label>
+                <label class="text-white mb-0" for="category">Category(カテゴリー)</label>
                 <input class="form-control" type="text" name="category" id="category" placeholder="shoes">
               </div>
 
               <div class="col-md-12">
-                <label class="text-white mb-0" for="sku">SKU</label>
+                <label class="text-white mb-0" for="sku">SKU(SKU)</label>
                 <input class="form-control" type="text" name="sku" id="sku" placeholder="sku-0001">
               </div>
 
               <div class="col-md-12">
-                <label class="text-white mb-0" for="quantity">Quantity</label>
+                <label class="text-white mb-0" for="quantity">Quantity(数量)</label>
                 <input class="form-control" type="text" name="quantity" id="quantity" placeholder="3">
               </div>
 
               <div class="col-md-12">
-                <label class="text-white mb-0" for="promoCode">Promo Code</label>
+                <label class="text-white mb-0" for="promoCode">Promo Code(プロモーションコード)</label>
                 <input class="form-control" type="text" name="promoCode" id="promoCode" placeholder="welcome0001">
               </div>
 
               <div class="form-button mt-3">
-                <button id="resume" type="button" class="btn btn-info">Resume</button>
-                <button id="generate" type="button" class="btn btn-warning">(re)Generate</button>
-                <a id="order" href="checkout.html" class="btn btn-success">Order</a>
-                <a href="index.html" class="btn btn-primary">Go back</a>
+                <button id="resume" type="button" class="btn btn-info">Resume(再開する)</button>
+                <button id="generate" type="button" class="btn btn-warning">(re)Generate((再)生成する)</button>
+                <a id="order" href="/order/checkout" class="btn btn-success">Order(注文する)</a>
+                <a href="/" class="btn btn-primary">Go back(戻る)</a>
               </div>
             </form>
           </div>

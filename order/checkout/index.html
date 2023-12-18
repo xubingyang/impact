@@ -17,7 +17,7 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
     crossorigin="anonymous"></script>
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="../../assets/styles.css">
   <title>Impact Demo Checkout Page</title>
   <script>
     const orderId = localStorage.getItem('_ir_order_id')
@@ -39,7 +39,9 @@
   <main class="masthead align-items-center">
     <div class="container px-4 px-lg-5 text-center">
       <h1 class="mb-1">Checkout Page</h1>
+      <h1 class="mb-3">チェックアウトページ</h1>
       <h3 class="mb-1">Ordered successfully. Thank you.</h3>
+      <h3 class="mb-1">注文は完了しました。ありがとうございます。</h3>
     </div>
     <div class="form-body">
       <div class="row">
@@ -49,37 +51,37 @@
               <form>
 
                 <div class="col-md-12">
-                  <label class="text-white mb-0" for="orderId">Order ID</label>
+                  <label class="text-white mb-0" for="orderId">Order ID(注文ID)</label>
                   <input class="form-control" type="text" name="orderId" id="orderId" placeholder="orderId-0001">
                 </div>
 
                 <div class="col-md-12">
-                  <label class="text-white mb-0" for="subTotal">Total Amount</label>
+                  <label class="text-white mb-0" for="subTotal">Total Amount(合計金額)</label>
                   <input class="form-control" type="text" name="subTotal" id="subTotal" placeholder="5000">
                 </div>
 
                 <div class="col-md-12">
-                  <label class="text-white mb-0" for="category">Category</label>
+                  <label class="text-white mb-0" for="category">Category(カテゴリー)</label>
                   <input class="form-control" type="text" name="category" id="category" placeholder="shoes">
                 </div>
 
                 <div class="col-md-12">
-                  <label class="text-white mb-0" for="sku">SKU</label>
+                  <label class="text-white mb-0" for="sku">SKU(SKU)</label>
                   <input class="form-control" type="text" name="sku" id="sku" placeholder="sku-0001">
                 </div>
 
                 <div class="col-md-12">
-                  <label class="text-white mb-0" for="quantity">Quantity</label>
+                  <label class="text-white mb-0" for="quantity">Quantity(数量)</label>
                   <input class="form-control" type="text" name="quantity" id="quantity" placeholder="3">
                 </div>
 
                 <div class="col-md-12">
-                  <label class="text-white mb-0" for="promoCode">Promo Code</label>
+                  <label class="text-white mb-0" for="promoCode">Promo Code(プロモーションコード)</label>
                   <input class="form-control" type="text" name="promoCode" id="promoCode" placeholder="welcome0001">
                 </div>
 
                 <div class="form-button mt-3">
-                  <a href="index.html" class="btn btn-primary">Go back</a>
+                  <a href="/" class="btn btn-primary">Go back(戻る)</a>
                 </div>
               </form>
             </div>

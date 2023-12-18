@@ -19,7 +19,7 @@
     crossorigin="anonymous"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuid.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/js-sha1/0.6.0/sha1.min.js"></script>
-  <link rel="stylesheet" href="assets/styles.css">
+  <link rel="stylesheet" href="/assets/styles.css">
 
   <script type="text/javascript">
     const queryParams = new URLSearchParams(window.location.search)
@@ -30,7 +30,7 @@
       localStorage.setItem('_ir_ad_name', iradname)
     }
   </script>
-  <title>Impact Demo Order Page</title>
+  <title>Impact Demo Order Page | Impact デモ注文ページ</title>
 </head>
 
 <body>
@@ -44,23 +44,24 @@
       <div class="form-holder">
         <div class="form-content">
           <div class="form-items">
-            <h3>Signup</h3>
-            <p>Data is only for demo purpose</p>
+            <h3>Signup(登録)</h3>
+            <p class="mb-0">Data is only for demo purpose</p>
+            <p>データは、デモのみを目的としています。</p>
             <form>
 
               <div class="col-md-12">
-                <label class="text-white mb-0" for="username">Username</label>
+                <label class="text-white mb-0" for="username">Username(ユーザー名)</label>
                 <input class="form-control" type="text" name="ousernamerderId" id="username" placeholder="xubingyang">
               </div>
 
               <div class="col-md-12">
-                <label class="text-white mb-0" for="email">Email</label>
+                <label class="text-white mb-0" for="email">Email(メールアドレス)</label>
                 <input class="form-control" type="text" name="email" id="email" placeholder="Bingyang.Xu@impact.com">
               </div>
 
               <div class="form-button mt-3">
-                <a id="signup" href="success.html" class="btn btn-success">Signup</a>
-                <a href="index.html" class="btn btn-primary">Go back</a>
+                <a id="signup" href="/signup/success/" class="btn btn-success">Signup(登録する)</a>
+                <a href="/" class="btn btn-primary">Go back(戻る)</a>
               </div>
             </form>
           </div>
