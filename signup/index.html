@@ -73,7 +73,8 @@
     const signup = document.querySelector('#signup')
     signup.addEventListener('click', () => {
       const customerId = uuid.v4()
-      const orderId = uuid.v4()
+      const orderId = customerId
+      // const orderId = uuid.v4()
       localStorage.setItem('_ir_customer_id', customerId)
       localStorage.setItem('_ir_order_id', orderId)
       const username = document.querySelector('#username').value
